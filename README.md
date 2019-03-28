@@ -53,6 +53,8 @@ see the route
 http://mysubdomain4.cfapps.io/all
 ```bash
 export HOST=http://mysubdomain4.cfapps.io
+then
+pcf stop springpong
 ```
 
 Now follow the [interaction instructions][interaction].
@@ -95,3 +97,5 @@ Now follow the [interaction instructions][interaction].
 [acceptance-test]:https://github.com/cloudfoundry-samples/pong_matcher_acceptance
 [pws]:https://run.pivotal.io
 [interaction]:https://github.com/cloudfoundry-samples/pong_matcher_rails/blob/master/README.md#interaction-instructions
+
+
