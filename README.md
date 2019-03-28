@@ -1,6 +1,7 @@
 # PCF - Pivotal Cloud Foundry paas installation
 * brew tap cloudfoundry/tap
 * brew install <cf-cli | bosh-init | bosh-cli | credhub-cli | bbl | bbr>
+* https://github.com/cloudfoundry-samples
 
 # PCF running app: ping-pong matching server
 
