@@ -3,7 +3,7 @@
 * brew install <cf-cli | bosh-init | bosh-cli | credhub-cli | bbl | bbr>
 * https://github.com/cloudfoundry-samples
 
-# PCF running app: ping-pong matching server
+# PCF learning
 
 This is an app to match ping-pong players with each other. It's currently an
 API only, so you have to use `curl` to interact with it.
@@ -12,9 +12,12 @@ It has an [acceptance test suite][acceptance-test] you might like to look at.
 
 **Note**: We highly recommend that you use the latest versions of any software required by this sample application. For example, make sure that you are using the most recent verion of maven.
 
-* open terminal
-* git clone this repo
-* cd this repo
+## Building**
+```
+$ git clone [REPO]
+$ cd [REPO]
+$ ./mvnw clean install
+``` 
 
 ## Running on [Pivotal Web Services][pws]
 
