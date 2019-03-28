@@ -11,6 +11,10 @@ It has an [acceptance test suite][acceptance-test] you might like to look at.
 
 **Note**: We highly recommend that you use the latest versions of any software required by this sample application. For example, make sure that you are using the most recent verion of maven.
 
+open terminal
+git clone this repo
+cd this repo
+
 ## Running on [Pivotal Web Services][pws]
 
 Log in.
