@@ -2,7 +2,7 @@
 applications:
   - name: springpong
     memory: 2G
-    # buildpacks: java_buildpack
+    buildpacks: java_buildpack
     path: target/paas_pcf_pong_matcher_spring-1.0.0.BUILD-SNAPSHOT.jar
     services:
       - mysql
