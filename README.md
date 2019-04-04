@@ -12,7 +12,7 @@ It has an [acceptance test suite][acceptance-test] you might like to look at.
 
 **Note**: We highly recommend that you use the latest versions of any software required by this sample application. For example, make sure that you are using the most recent verion of maven.
 
-## Building**
+## Building(create jar file)**
 ```
 $ git clone [REPO]
 $ cd [REPO]
@@ -44,7 +44,7 @@ cf create-service cleardb spark mysql
 Push the app. Its manifest assumes you called your ClearDB instance 'mysql'.
 
 ```bash
-cf push -n mysubdomain4
+cf push pongdemo -p target/springpong-0.0.1-SNAPSHOT.jar -n mysubdomain4
 ```
 
 Export the test host
@@ -58,6 +58,7 @@ pcf stop springpong
 ```
 
 Now follow the [interaction instructions][interaction].
+https://run.pivotal.io/
 
 ## Running locally
 
